@@ -5,7 +5,7 @@
         <parameter name="password" value="qwerty321"/>
         <parameter name= "text" value="Hello World!"/>
         <classes>
-            <class name="TestGoogle" />
+            <class name="test.TestGoogle" />
         </classes>
     </test>
 
