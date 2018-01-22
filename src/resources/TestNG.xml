@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestsKirill">
+    <test name="GMail">
+        <parameter name="login" value="testuserqa2001@gmail.com"/>
+        <parameter name="password" value="qwerty321"/>
+        <parameter name= "text" value="Hello World!"/>
+        <classes>
+            <class name="TestGoogle" />
+        </classes>
+    </test>
+
+</suite>
