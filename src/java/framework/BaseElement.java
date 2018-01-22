@@ -7,11 +7,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public abstract class BaseElement extends BaseEntity {
+public abstract class BaseElement {
 
   private WebElement element;
   private By locator;
-  private static WebDriver driver = currentBrowser.returnDriver();
+  private static WebDriver driver = Browser.getInstance().returnDriver();
   private PropertiesReader properties = new PropertiesReader();
   private WebDriverWait wait = new WebDriverWait(driver, properties.getWaitsForElemetns());
 
